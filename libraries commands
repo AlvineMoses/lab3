@@ -1,0 +1,9 @@
+WITH INTELLIJ
+
+--module-path ${PATH_TO_FX} --add-modules javafx.controls,javafx.fxml
+
+WITH TERMINAL
+
+ java --module-path "/home/djshampz/Downloads/Compressed/javafx-sdk-14.0.1/lib" --add-modules javafx.controls,javafx.fxml
+
+ javac --module-path "/home/djshampz/Downloads/Compressed/javafx-sdk-14.0.1/lib" --add-modules javafx.controls,javafx.fxml *java
